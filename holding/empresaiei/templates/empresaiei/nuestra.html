@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nuestra Empresa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #f86262;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header nav {
+            margin-top: 15px;
+        }
+
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #f86262;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+            color: #3b82f6;
+            font-size: 1.8rem;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .team, .projects {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .team-member, .project {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .team-member img, .project img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .team-member h3, .project h3 {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+            color: #f86262;
+        }
+
+        .team-member p, .project p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        footer {
+            background-color: #f86262;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nuestra Empresa</h1>
+        <nav>
+            <a href="#mision-vision">Misión y Visión</a>
+            <a href="#equipo">Equipo Gerencial</a>
+            <a href="#proyectos">Proyectos</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- Sección de Misión y Visión -->
+        <section class="section" id="mision-vision">
+            <div class="section-title">Misión y Visión</div>
+            <div class="section">
+                <h2>Misión</h2>
+                <p>Nuestra misión es proporcionar soluciones innovadoras en el ámbito tecnológico, adaptándonos a las necesidades del mercado y aportando valor a nuestros clientes mediante productos de alta calidad.</p>
+            </div>
+            <div class="section">
+                <h2>Visión</h2>
+                <p>Nuestra visión es ser líderes en el sector tecnológico, reconocidos por nuestro compromiso con la innovación, la excelencia y la sostenibilidad, impactando positivamente en la sociedad y en el crecimiento empresarial global.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Equipo Gerencial -->
+        <section class="section" id="equipo">
+            <div class="section-title">Equipo Gerencial</div>
+            <div class="team">
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/120" alt="Gerente General">
+                    <h3>Juan Pérez</h3>
+                    <p>Gerente General</p>
+                    <p>Juan tiene más de 15 años de experiencia liderando empresas tecnológicas y es responsable de la dirección estratégica de la compañía.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/120" alt="Directora Financiera">
+                    <h3>Ana Gómez</h3>
+                    <p>Directora Financiera</p>
+                    <p>Ana se encarga de la gestión financiera, asegurando que nuestras operaciones sean rentables y sostenibles a largo plazo.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/120" alt="Director de Tecnología">
+                    <h3>Carlos Martínez</h3>
+                    <p>Director de Tecnología</p>
+                    <p>Carlos supervisa el desarrollo de productos tecnológicos innovadores y lidera el equipo de investigación y desarrollo.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/120" alt="Directora de Marketing">
+                    <h3>Lucía Fernández</h3>
+                    <p>Directora de Marketing</p>
+                    <p>Lucía es responsable de la estrategia de marketing, enfocada en expandir nuestra presencia en el mercado global.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Proyectos Realizados -->
+        <section class="section" id="proyectos">
+            <div class="section-title">Proyectos Realizados</div>
+            <div class="projects">
+                <div class="project">
+                    <img src="https://via.placeholder.com/120" alt="Proyecto 1">
+                    <h3>Proyecto Innovación</h3>
+                    <p>Desarrollamos un software de gestión integral para empresas, optimizando procesos y aumentando la eficiencia operativa.</p>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/120" alt="Proyecto 2">
+                    <h3>Proyecto Sostenibilidad</h3>
+                    <p>Implementamos un sistema de gestión de residuos electrónicos en colaboración con empresas del sector energético.</p>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/120" alt="Proyecto 3">
+                    <h3>Proyecto Expansión</h3>
+                    <p>Apoyamos la expansión de pequeñas empresas en mercados internacionales, facilitando soluciones tecnológicas personalizadas.</p>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/120" alt="Proyecto 4">
+                    <h3>Proyecto Smart Cities</h3>
+                    <p>Colaboramos en la creación de ciudades inteligentes, utilizando tecnologías IoT para mejorar la calidad de vida urbana.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2024 Nuestra Empresa | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
